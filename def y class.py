@@ -1,5 +1,5 @@
 def saludar(persona):
-    return print(f"Hola {persona} desde el def!")
+    print(f"Hola {persona} desde el def!")
 
 saludar("Diego")
 
@@ -11,8 +11,8 @@ class Persona:
     def info(self):
         return f"Su nombre es {self.nombre}, tiene {self.edad} años y es de {self.ciudad}."
     
-Diego = Persona("Diego", 30, "Talca")
-Javi = Persona("Javiera", 25, "Colin") 
+diego = Persona("Diego", 30, "Talca")
+javi = Persona("Javiera", 25, "Colin") 
 
-print(Diego.info())
-print(Javi.info())
+print(diego.info())
+print(javi.info())
