@@ -6,5 +6,4 @@ while entrada != "no":
     if entrada != "no":
         lista.append(entrada)
 
-
 print(lista)
