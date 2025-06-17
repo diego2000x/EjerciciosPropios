@@ -1,5 +1,5 @@
 lista = []
-entrada = str
+entrada = ""
 
 while entrada != "no":
     entrada = input("Nombra Pokemon, si no quieres nombrar mas escribe 'no' \n")
