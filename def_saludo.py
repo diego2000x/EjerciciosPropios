@@ -1,9 +1,9 @@
 
 
 def saludar(nombre):
-    return "Hola " + nombre
+    print("Hola " + nombre)
 
 
 nombreUsuario = input("Dime tu nombre: ")
 
-print(saludar(nombreUsuario))
+saludar(nombreUsuario)
